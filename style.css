@@ -1,0 +1,75 @@
+
+/* Styles de base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5dc; /* Beige background */
+  text-align: center; /* Centered text */
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #003366;
+}
+
+h3 {
+  color: #00509e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #00509e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
