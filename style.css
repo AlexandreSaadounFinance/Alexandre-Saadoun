@@ -89,3 +89,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.dexia-image {
+  position: absolute; /* Position fixe sur l'écran */
+  top: 20%; /* Ajustez pour aligner verticalement */
+  left: 0; /* Position sur le côté gauche */
+  width: 150px; /* Taille de l'image */
+}
+
+.dexia-image img {
+  max-width: 100%; /* Maintient les proportions de l'image */
+  border-radius: 8px; /* Ajoute un léger arrondi si nécessaire */
+}
