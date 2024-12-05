@@ -1,103 +1,23 @@
-/* Styles de base */
+/* Style du premier paragraphe (section "Accueil") */
+section#home p {
+  font-family: 'Georgia', serif; /* Police plus élégante */
+  font-size: 1.2rem; /* Taille légèrement plus grande */
+  color: #fff; /* Texte en blanc */
+  background-color: #000; /* Fond noir */
+  text-align: left; /* Alignement à gauche */
+  padding: 20px; /* Espace intérieur */
+  border-radius: 5px; /* Coins légèrement arrondis */
+  line-height: 1.8; /* Espacement entre les lignes */
+}
+
+/* Style général des textes */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #f5f5dc; /* Beige background */
-  text-align: center; /* Centered text */
+  color: #fff; /* Texte en blanc */
+  background-color: #000; /* Fond noir */
 }
 
-header {
-  background-color: #003366;
-  color: white;
-  padding: 1rem 0;
+/* Alignement des paragraphes à gauche */
+section p {
+  text-align: left; /* Alignement à gauche pour tous les paragraphes */
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 2rem;
-}
-
-h1, h2 {
-  color: #003366;
-}
-
-h3 {
-  color: #00509e;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.experience {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-  justify-content: center;
-  text-align: left;
-}
-
-.experience-image img {
-  border-radius: 10px;
-  margin-right: 20px;
-}
-
-.experience-content {
-  max-width: 600px;
-}
-
-footer {
-  background-color: #003366;
-  color: white;
-  padding: 1rem 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-a {
-  color: #00509e;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.dexia-image {
-  position: absolute; /* Position fixe sur l'écran */
-  top: 20%; /* Ajustez pour aligner verticalement */
-  left: 0; /* Position sur le côté gauche */
-  width: 150px; /* Taille de l'image */
-}
-
-.dexia-image img {
-  max-width: 100%; /* Maintient les proportions de l'image */
-  border-radius: 8px; /* Ajoute un léger arrondi si nécessaire */
-}
