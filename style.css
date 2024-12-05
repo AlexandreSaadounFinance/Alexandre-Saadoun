@@ -1,23 +1,163 @@
-/* Style du premier paragraphe (section "Accueil") */
-section#home p {
-  font-family: 'Georgia', serif; /* Police plus élégante */
-  font-size: 1.2rem; /* Taille légèrement plus grande */
-  color: #fff; /* Texte en blanc */
-  background-color: #000; /* Fond noir */
-  text-align: left; /* Alignement à gauche */
-  padding: 20px; /* Espace intérieur */
-  border-radius: 5px; /* Coins légèrement arrondis */
-  line-height: 1.8; /* Espacement entre les lignes */
-}
-
-/* Style général des textes */
+/* Style général */
 body {
-  color: #fff; /* Texte en blanc */
-  background-color: #000; /* Fond noir */
+  font-family: 'Georgia', serif; /* Police élégante */
+  line-height: 1.8;
+  color: #333; /* Texte noir */
+  background-color: #f9f5f0; /* Fond beige clair */
+  margin: 0;
+  padding: 0;
 }
 
-/* Alignement des paragraphes à gauche */
-section p {
-  text-align: left; /* Alignement à gauche pour tous les paragraphes */
+/* En-tête */
+header {
+  background-color: #4b6584; /* Bleu foncé/gris élégant */
+  color: #fff; /* Texte blanc */
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ffd700; /* Doré */
+}
+
+/* Section d'accueil */
+section#home {
+  padding: 40px 20px;
+  text-align: left;
+}
+
+section#home h1 {
+  font-size: 2.5rem;
+  color: #4b6584;
+  margin-bottom: 20px;
+}
+
+section#home p {
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #4b6584;
+}
+
+/* Ligne de séparation */
+.separator {
+  width: 80%;
+  height: 1px;
+  background-color: #ccc; /* Ligne grise */
+  margin: 30px auto;
+  border: none;
+}
+
+/* Section CV */
+section#cv {
+  padding: 40px 20px;
+}
+
+section#cv h2 {
+  font-size: 2rem;
+  color: #4b6584;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section#cv h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Expériences professionnelles */
+.experience {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd; /* Bordure grise douce */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.experience h4 {
+  color: #4b6584;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Images dans les expériences */
+.experience .dexia-image img,
+.experience .experience-image img {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* Diplômes et compétences techniques */
+section#cv ul {
+  margin: 20px 0;
+  padding: 0 20px;
+  list-style-type: square;
+}
+
+section#cv ul li {
+  margin-bottom: 10px;
+}
+
+section#cv p {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+section#cv a {
+  color: #4b6584;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+section#cv a:hover {
+  color: #ff6600; /* Orange au survol */
+}
+
+/* Pied de page */
+footer {
+  background-color: #4b6584;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
 }
 
