@@ -161,3 +161,30 @@ footer p {
   font-size: 0.9rem;
 }
 
+/* Style général pour les expériences */
+.experience {
+  display: flex; /* Alignement en ligne pour image et texte */
+  align-items: flex-start; /* Alignement en haut */
+  gap: 15px; /* Espacement entre le logo et le texte */
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd; /* Bordure grise douce */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Image du logo de l'employeur */
+.experience img {
+  width: 80px; /* Taille du logo */
+  height: auto; /* Conserve les proportions */
+  border-radius: 8px; /* Coins arrondis */
+  object-fit: contain; /* Ajustement pour garder les dimensions */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre */
+}
+
+/* Texte de l'expérience */
+.experience-content {
+  flex: 1; /* Prend tout l'espace restant */
+}
+
